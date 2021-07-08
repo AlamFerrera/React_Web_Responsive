@@ -6,9 +6,9 @@
 }
 
 .inicio,
-.services,
-.products,
-.sign-up {
+.servicios,
+.productos,
+.registrarse {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,7 +16,7 @@
   font-size: 3rem;
 }
 
-.services {
+.servicios {
   background-image: url('./images/img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@
   font-size: 100px;
 }
 
-.products {
+.productos {
   background-image: url('./images/img-1.jpg');
   background-position: center;
   background-size: fill;
@@ -34,8 +34,8 @@
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('./images/img-8.jpg');
+.registrarse {
+  background-image: url('./images/img-4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,17 +1,23 @@
-import React from 'react'
-import Button from '../Button/button';
+import React from 'react';
+import '../../App.css';
+import {Button} from '../Button/button';
+import './hero.css';
+import Video from '../../videos/video-1.mp4';
 
 function HeroSection(){
     return(
         <div className="hero-container">
-            <video src="./videos/video-2.mp4" autoPlay loop muted />
+            <video src={Video} autoPlay loop muted />
             <h1>La Aventura Espera</h1>
-            <p>Que estas esperando?</p>
+            <p>¿Qué estás esperando?</p>
             <div className="hero-btns">
                 <Button className="btns"
                         buttonStyle="btn--outline"
                         buttonSize="btn--large">GET STARTED</Button>
-
+                <Button className="btns"
+                        buttonStyle="btn--primary"
+                        buttonSize="btn--large">VER TRAILER <i className="far fa-play-circle"></i>
+                </Button>
             </div>
 
         </div>
